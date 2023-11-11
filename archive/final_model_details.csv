@@ -1,0 +1,18 @@
+Section,Item,Value
+Feature,current_score,
+Feature,current_wickets_fallen,
+Feature,cumulative_fours,
+Feature,cumulative_sixes,
+Feature,balls_bowled,
+Feature,avg_runs_per_ball_last_3,
+Feature,avg_runs_per_wicket_last_3,
+Parameter,n_estimators,100
+Parameter,max_depth,None
+Parameter,min_samples_split,2
+Parameter,min_samples_leaf,1
+Hyperparameter,,
+Hyperparameter,,
+Hyperparameter,,
+Hyperparameter,,
+Performance Metric,MAE,0.5172250502630791
+Performance Metric,CV MAE,0.6941608630422993
